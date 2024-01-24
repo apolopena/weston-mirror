@@ -570,11 +570,11 @@ theme_render_frame(struct theme *t,
 			cairo_set_source_rgb(cr, 0, 0, 0);
 			SHOW_TEXT(cr);
 			cairo_move_to(cr, x, y);
-			cairo_set_source_rgb(cr, 1, 1, 1);
+			cairo_set_source_rgb(cr, 0.6, 0.6, 0.6);
 			SHOW_TEXT(cr);
 		} else {
 			cairo_move_to(cr, x, y);
-			cairo_set_source_rgb(cr, 0.6, 0.6, 0.6);
+			cairo_set_source_rgb(cr, 0.8, 0.8, 0.8);
 			SHOW_TEXT(cr);
 		}
 	}
